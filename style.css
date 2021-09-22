@@ -59,7 +59,8 @@ a {
     padding: 0 12px;
 }
 
-.info, .account a {
+.info,
+.account a {
     font-size: 18px;
 }
 
