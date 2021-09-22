@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MNTN - Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-styles.css">
 </head>
 <body>
     <div class="parent-container">
@@ -15,22 +16,32 @@
             <a href="#" class="logo">
                 MNTN
             </a>
-            <div class="info">
-                <a href="#">Equipment</a>
-                <a href="#">About us</a>
-                <a href="#">Blog</a>
-            </div>
+            <ul class="info">
+                <li>
+                    <a href="#">Equipment</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+            </ul>
             <div class="account">
-            <img src="img/cart.svg" alt="people">
-            <a href="#">Account</a>
+                <a class="account-people" href="#">
+                    <img src="img/cart.svg" alt="people">
+                    Account
+                </a>
             </div>
         </div>
         <div class="title">
             <span class="tag-line">A Hiking guide</span>
             <h1>Be prepared for the Mountains and beyond!</h1>
             <div class="arrows">
-                <p>scroll down</p>
-                <img src="img/arrow_down.svg" alt="arrow-down " class="arrow">
+                <a href="#scroll-down" onclick="javascript:void(0)">
+                    scroll down
+                    <img src="img/arrow_down.svg" alt="arrow-down " class="arrow">
+                </a>
             </div>
         </div>
     </header>
@@ -94,7 +105,7 @@
                     </div>
                 </div>
                 <div class="news-right">
-                    <img src="img/01 (4).png" alt="people and Mountains">
+                    <img src="img/01 (2).png" alt="people and Mountains">
                 </div>
             </div>
         </div>
