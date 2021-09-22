@@ -1,0 +1,31 @@
+@media screen and (max-width: 975px) {
+    .title {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .head {
+        flex-direction: column;
+    }
+
+    .logo {
+        padding-top: 20px;
+        font-size: 64px;
+    }
+
+    .info {
+        flex-direction: column;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .info a {
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    .account {
+        padding: 20px 0;
+    }
+}
