@@ -93,6 +93,7 @@ a {
 
     position: relative;
     padding-left: 96px;
+
 }
 
 .tag-line::before {
@@ -105,7 +106,7 @@ a {
 
     background-color: #FBD784;
 }
-
+ 
 .arrow {
     width: 16px;
     height: 24px;
