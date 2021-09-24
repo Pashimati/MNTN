@@ -1,10 +1,88 @@
 @media screen and (max-width: 975px) {
+    .perent-container {
+        width: 100%;
+    }
+    .container {
+        width: 96%;
+        padding-top: 1000px;
+    }
     .title {
         width: 100%;
     }
+    
+    .tag-head {
+        text-align: center;
+        padding-right: 90px;
+        
+    }
+    .arrows {
+        display: flex;
+        justify-content: center;
+    }
+    .title h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .oneNew,
+    .blockTwo,
+    .blockThree {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .info-news {
+        padding: 0;
+    }
+    .info-news h2 {
+        font-size: 42px;
+    }
+
+    .container .arrows {
+        justify-content: left;
+    }
+
+    .intro-container::before {
+        font-weight: 600;
+        font-size: 240px;
+        color: rgba(255, 255, 255, .1);
+        width: 240px;
+        height: 240px;
+        position: absolute;
+        left: -70px;
+        top: -166px;
+    }
+
+
 }
 
+
+
+
 @media screen and (max-width: 590px) {
+    .tag-line {
+        font-size: 16px;
+    }
+
+.news-right img {
+    width: 100%;
+}
+.container {
+    justify-content: center;
+}
+
+    .bg-image {
+        width: 100%;
+    }
+    .perent-container {
+        margin: 0 auto;
+    }
+
+    .container p {
+        font-size: 14px;
+    }
     .head {
         flex-direction: column;
     }
@@ -27,5 +105,22 @@
 
     .account {
         padding: 20px 0;
+    }
+    .title h1 {
+        font-size: 35px;
+    }
+    .tag-head span {
+        font-size: 14px;
+    }
+
+    .intro-container::before {
+        font-weight: 600;
+        font-size: 180px;
+        color: rgba(255, 255, 255, .1);
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        left: -19px;
+        top: -126px;
     }
 }
